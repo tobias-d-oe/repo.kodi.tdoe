@@ -51,7 +51,7 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
     </extension>
 </addon>
 
-<addon id="skin.confluencetdoe" version="4.1.5" name="Confluence TDOe 18" provider-name="TDOe">
+<addon id="skin.confluencetdoe" version="4.1.6" name="Confluence TDOe 18" provider-name="TDOe">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0"/>
 	</requires>
@@ -145,7 +145,7 @@ oder online unter https://goo.gl/GtK41L nachlesen.
 </addon>
 
 
-<addon id="service.remotekodi" name="Remote Kodi PVR Info" version="0.2.0" provider-name="TDOe">
+<addon id="service.remotekodi" name="Remote Kodi PVR Info" version="0.3.0" provider-name="TDOe">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.elementtree" version="1.2.7"/>
@@ -155,6 +155,13 @@ oder online unter https://goo.gl/GtK41L nachlesen.
 		library="remotekodi.py"
 		start="startup">
 	</extension>
+	<extension point="xbmc.python.script"
+        	library="script.py">
+		<provides>executable</provides>
+		<provides>image</provides>
+		<provides>video</provides>
+	</extension>
+
 	<extension point="xbmc.addon.metadata">
 		<summary lang="de">Remotekodi PVR Info</summary>
 		<summary lang="en">Remotekodi PVR Info</summary>
