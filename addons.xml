@@ -28,7 +28,7 @@ oder online unter https://goo.gl/GtK41L nachlesen.
     </extension>
 </addon>
 
-<addon id="skin.confluencetdoe" version="4.1.8" name="Confluence TDOe 18" provider-name="TDOe">
+<addon id="skin.confluencetdoe" version="4.1.9" name="Confluence TDOe 18" provider-name="TDOe">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0"/>
 	</requires>
