@@ -223,7 +223,7 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
 	</extension>
 </addon>
 
-<addon id="service.infocollector" name="Info Area Creator - INFO Collector" version="0.1" provider-name="TDOe">
+<addon id="service.infocollector" name="Info Area Creator - INFO Collector" version="0.2" provider-name="TDOe">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
